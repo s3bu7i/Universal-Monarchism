@@ -1,0 +1,91 @@
+/*
+Theme Name: DotLife Child
+Theme URI: https://themes.themegoods.com/dotlife/landing
+Description: Premium Speaker & Coach WordPress Theme
+Version: 1.0
+Author: ThemeGoods
+Author URI: https://themeforest.net/user/ThemeGoods
+License: GNU General Public License
+License URI: https://themeforest.net/licenses/regular_extended
+Text Domain: dotlife
+Template: dotlife
+*/
+
+.single-post #page_caption {
+    display: none;
+}
+.single-post .blog_wrapper {
+    margin-top: 30px !important;
+}
+p a, h4 a {
+    color: #135E96 !important;
+}
+#main_menu li > a:before {
+    background-color: inherit !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .above_top_bar .social_wrapper {
+        display: block !important;
+    }
+    .above_top_bar .social_wrapper ul {
+        margin-top: 0;
+    }
+}
+
+
+/* NewsLetter */
+.gamaan-newsletter {
+    margin-bottom: 0 !important;
+}
+.gamaan-newsletter input[type=email] {
+    display: inline !important;
+	width: 300px !important;
+	margin-right: 10px !important;
+	margin-left: 10px !important;
+	background: transparent !important;
+	color: #fff !important;
+	border: 0 !important;
+	border-bottom: 1px solid #fff !important;
+	width: calc(100% - 250px) !important;
+	border-radius: 0 !important;
+}
+.gamaan-newsletter input[type=email]::placeholder {
+	opacity: 0.4 !important;
+	color: #fff !important;
+}
+.gamaan-newsletter button {
+    display: inline !important;
+	background: transparent !important;
+	color: #fff !important;
+	border: 1px solid #fff !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+    border-radius: 20px !important;
+    padding: 10px 30px !important;
+}
+.gamaan-newsletter .wpforms-field-container,
+.gamaan-newsletter .wpforms-submit-container,
+.gamaan-newsletter .wpforms-field {
+    display: inline !important;
+}
+
+/*tags page*/
+#page_caption.blog_wrapper
++ #page_content_wrapper.blog_wrapper
+.sidebar_content.full_width {
+    padding: 30px;
+}
+#page_caption.blog_wrapper
++ #page_content_wrapper.blog_wrapper
+.post {
+    max-width: 90%;
+}
+#page_caption.blog_wrapper
++ #page_content_wrapper.blog_wrapper
+.post_img {
+    display: none !important;
+}
+.wp-social-link-mail {
+  background: gray !important;
+}

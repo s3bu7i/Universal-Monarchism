@@ -1,0 +1,142 @@
+/*
+Theme Name: DotLife Child
+Theme URI: https://themes.themegoods.com/dotlife/landing
+Description: Premium Speaker & Coach WordPress Theme
+Version: 1.0
+Author: ThemeGoods
+Author URI: https://themeforest.net/user/ThemeGoods
+License: GNU General Public License
+License URI: https://themeforest.net/licenses/regular_extended
+Text Domain: dotlife
+Template: dotlife
+*/
+
+/*Global*/
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/Vazird41d.eot?#') format('eot'),
+    url('fonts/Vazir.woff') format('woff'),
+    url('fonts/Vazir.woff2') format('woff2'),
+    url('fonts/Vazir.ttf') format('truetype');
+}
+body, h1, h2, h3, h4, h5, h6, h7, p, a, span , ::placeholder {
+	font-family: "Vazir" !important;
+}
+.logo_container {
+    float: right;
+}
+#menu_wrapper {
+    float: right !important;
+    margin-right: 50px !important;
+}
+/*Posts*/
+.layout_list .post_img {
+	float: right !important;
+    max-width: 318px;
+    max-width: 318px;
+}
+.post_navigation.next:hover .navigation_post_content
+{
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+}
+.post_navigation.previous:hover .navigation_post_content
+{
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+    opacity: 1;
+}
+.post_navigation.previous .navigation_anchor,
+.post_navigation.next .navigation_anchor
+{
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+/*Gamaa in Media*/
+.qc-grid-item {
+    direction: ltr;
+}
+/*Contact*/
+div[role=form] {
+    direction: rtl !important;
+}
+/*Home*/
+.tg_animated_slider_wrapper .slideshow__slide-image.background-absolute {
+    width: 65%;
+    right: 35%;
+}
+.blog_post_content_wrapper.layout_grid {
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+}
+.post_content_wrapper.text_left {
+    text-align: right !important;
+    direction: rtl !important;
+}
+.type-post.blog-posts-grid {
+    margin-right: 0 !important;
+}
+@media (max-width: 1200px) {
+    .tg_animated_slider_wrapper .slideshow__slide-image.background-absolute {
+        width: 50%;
+        right: 50%;
+    }
+    .blog_post_content_wrapper.layout_grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .type-post.blog-posts-grid {
+        margin-right: 0 !important;
+    }
+}
+/* Timeline */
+span.ti-arrow-left {
+	font-family: "themify" !important;
+}
+.portfolio_timeline_content h2 {
+    font-weight: 600 !important;
+}
+#footer_wrapper {
+  direction: ltr !important;
+}
+#footer_wrapper form {
+  direction: rtl !important;
+}
+.post_excerpt.post_tag {
+    float: right !important;
+}
+.page_tagline {
+    display: none !important;
+}
+#page_content_wrapper .inner .inner_wrapper {
+    float: right;
+    direction: rtl;
+}
+#page_content_wrapper .inner
+.inner_wrapper .sidebar_content {
+    float: right;
+}
+#page_content_wrapper .inner
+.inner_wrapper .sidebar_content
+.pagination {
+    float: right;
+    margin-top: 30px;
+}
+.pagination_detail {
+    display: none !important;
+}
+#menu_wrapper div .nav li ul li {
+    text-align: right !important;
+}
+#mobile_nav_icon .ti-menu {
+    font-family: 'themify' !important;
+}
+
+#logo_right_wrapper {
+	float: left !important;
+}
+
